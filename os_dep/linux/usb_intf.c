@@ -155,6 +155,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	/*=== ASUS USB-AX55 =======*/
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDOR_ID_ASUS, 0x1a62, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
 
+	/*=== TPLINK 1750U Nano =======*/
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDOR_ID_TPLINK, 0x0108, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
 #endif /* CONFIG_RTL8852B */
 #ifdef CONFIG_RTL8852BP
